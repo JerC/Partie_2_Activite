@@ -1,0 +1,30 @@
+@font-face{/* Import de police externe */
+	font-family:'Police1';
+	src: url('Contenu/CodenameCoderFree4F-Bold.otf');
+}
+
+body{
+	background-image:url("Contenu/fond_carrelage.jpg");/* Application d'une image de fond */
+}
+h1, h2{
+	text-align: center;/* Les titres seront centrés */
+	font-family:'Police1';/* La police personalisée sera utilisée pour les titres */
+	font-size: 2em;
+}
+h1{
+	font-size: 4em;
+}
+h2{
+	color: #7404B2;
+	font-weight: bold;
+	text-decoration: underline;
+}
+p
+{
+	text-align: center; /* Les paragraphes seront centrés*/
+	color: blue; /* Les paragraphes seront en bleu */
+}
+img{
+	border: 3px black solid;/* Une bordure noire sera appliquée autour des images*/
+	box-shadow: 6px 6px 0px black;/* Une ombre noire sera appliquée autour des images*/
+}
